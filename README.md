@@ -2,6 +2,8 @@
 
 A currency exchange UI built for Cowrie Exchange using React and SASS
 
+Visit https://cowrie-exchange.netlify.com
+
 ## Running
 
 First `yarn install` to grab all the necessary dependencies.
