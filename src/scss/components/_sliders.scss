@@ -1,0 +1,25 @@
+.slide {
+  margin-top: 4rem;
+  color: #f1f1f1;
+
+  .row.row {
+    margin-bottom: 2rem;
+    &:nth-child(1) {
+      border-bottom: 1px solid #7e7e91;
+    }
+  }
+
+  &__form-group {
+    width: 60%;
+    margin-right: 3rem;
+
+    &--1 {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  &__text {
+    font-size: 1.9rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+.partners {
+  &__heading {
+    margin-top: 8rem;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 8rem;
+  }
+
+  &__item {
+    margin: 2rem;
+  }
+}

@@ -1,0 +1,12 @@
+.form-hint {
+  width: 40%;
+  padding: 3rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 2.7rem;
+    }
+  }
+}

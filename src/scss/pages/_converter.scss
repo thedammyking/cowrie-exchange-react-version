@@ -1,0 +1,38 @@
+.slide {
+  .row {
+    align-items: flex-start;
+  }
+
+  &--2 {
+    .form-hint {
+      margin-top: 1rem;
+    }
+  }
+  &--3 {
+    .form-hint {
+      margin-top: 4rem;
+    }
+  }
+
+  &__form-group--1 {
+    .input-dropdown {
+      &:first-child {
+        margin-right: 7rem;
+      }
+      &:nth-child(2) {
+        margin-right: 3.5rem;
+      }
+    }
+  }
+
+  &__form-group--2 {
+    .input {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__form-group--2,
+  &__form-group--3 {
+    margin-top: 1rem;
+  }
+}

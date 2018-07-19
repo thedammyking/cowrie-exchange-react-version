@@ -1,0 +1,23 @@
+.section-cta {
+  padding-top: 8rem;
+  color: #f1f1f1;
+}
+.section-spot-light {
+  height: 35.6rem;
+  margin-top: 8rem;
+
+  .row {
+    background-color: #6825ff;
+  }
+}
+
+.section-partners {
+  margin-top: 8rem;
+  width: 100%;
+  background-color: #e4e4e4;
+  text-align: center;
+
+  .row {
+    flex-direction: column;
+  }
+}

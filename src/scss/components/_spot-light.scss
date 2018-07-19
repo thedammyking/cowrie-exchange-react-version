@@ -1,0 +1,29 @@
+.spot-light {
+  &__card {
+    display: inline-block;
+    padding: 4.4rem;
+  }
+
+  &__card-img {
+    display: inherit;
+    margin-bottom: 7rem;
+  }
+}
+
+.col-1-of-3:first-child .spot-light {
+  &__card {
+    padding-right: 0;
+  }
+}
+
+.col-1-of-3:last-child .spot-light {
+  &__card {
+    padding-left: 0;
+  }
+}
+
+.col-1-of-3:nth-child(2) .spot-light {
+  &__card {
+    padding: 2.2rem;
+  }
+}
