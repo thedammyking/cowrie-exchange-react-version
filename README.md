@@ -2,7 +2,7 @@
 
 A currency exchange UI built for Cowrie Exchange using React and SASS
 
-Visit https://cowrie-exchange.netlify.com
+Visit https://cowrie-exchange-react.netlify.com
 
 ## Running
 
